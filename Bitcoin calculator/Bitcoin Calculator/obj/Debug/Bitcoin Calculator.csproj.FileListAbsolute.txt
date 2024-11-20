@@ -1,0 +1,10 @@
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\bin\Debug\Bitcoin Calculator.exe.config
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\bin\Debug\Bitcoin Calculator.exe
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\bin\Debug\Bitcoin Calculator.pdb
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin Calculator.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin_Calculator.Form1.resources
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin_Calculator.Properties.Resources.resources
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin Calculator.csproj.GenerateResource.cache
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin Calculator.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin Calculator.exe
+C:\Users\opilane\source\repos\Bitcoin calc\Bitcoin Calculator\Bitcoin Calculator\obj\Debug\Bitcoin Calculator.pdb

@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE6BE61-5D51-4644-943F-7E088FFF6A6F}|Bitcoin Calculator\\Bitcoin Calculator.csproj|c:\\users\\opilane\\source\\repos\\bitcoin calc\\bitcoin calculator\\bitcoin calculator\\bitcoinrates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE6BE61-5D51-4644-943F-7E088FFF6A6F}|Bitcoin Calculator\\Bitcoin Calculator.csproj|solutionrelative:bitcoin calculator\\bitcoinrates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE6BE61-5D51-4644-943F-7E088FFF6A6F}|Bitcoin Calculator\\Bitcoin Calculator.csproj|C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\bitcoin calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE6BE61-5D51-4644-943F-7E088FFF6A6F}|Bitcoin Calculator\\Bitcoin Calculator.csproj|solutionrelative:bitcoin calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE6BE61-5D51-4644-943F-7E088FFF6A6F}|Bitcoin Calculator\\Bitcoin Calculator.csproj|C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\bitcoin calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DE6BE61-5D51-4644-943F-7E088FFF6A6F}|Bitcoin Calculator\\Bitcoin Calculator.csproj|solutionrelative:bitcoin calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BitcoinRates.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
+              "RelativeDocumentMoniker": "Bitcoin Calculator\\BitcoinRates.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
+              "RelativeToolTip": "Bitcoin Calculator\\BitcoinRates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:26:53.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Bitcoin Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
+              "RelativeToolTip": "Bitcoin Calculator\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:20:49.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Bitcoin Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Bitcoin calc\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs [Design]",
+              "RelativeToolTip": "Bitcoin Calculator\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:20:14.073Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
