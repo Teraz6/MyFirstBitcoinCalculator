@@ -29,30 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.currencyselector = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bitcoinamountinput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tulemuslabel = new System.Windows.Forms.Label();
+            this.resultlabel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // currencyselector
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.currencyselector.BackColor = System.Drawing.SystemColors.Window;
+            this.currencyselector.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.currencyselector.FormattingEnabled = true;
+            this.currencyselector.Items.AddRange(new object[] {
             "EUR",
             "USD",
             "EEK"});
-            this.comboBox1.Location = new System.Drawing.Point(368, 113);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(113, 21);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.Text = "Vali valuuta";
-            this.comboBox1.UseWaitCursor = true;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.currencyselector.Location = new System.Drawing.Point(368, 113);
+            this.currencyselector.Name = "currencyselector";
+            this.currencyselector.Size = new System.Drawing.Size(113, 21);
+            this.currencyselector.TabIndex = 0;
+            this.currencyselector.Text = "Vali valuuta";
+            this.currencyselector.UseWaitCursor = true;
+            this.currencyselector.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -68,12 +68,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // bitcoinamountinput
             // 
-            this.textBox1.Location = new System.Drawing.Point(368, 78);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(113, 20);
-            this.textBox1.TabIndex = 2;
+            this.bitcoinamountinput.Location = new System.Drawing.Point(368, 78);
+            this.bitcoinamountinput.Name = "bitcoinamountinput";
+            this.bitcoinamountinput.Size = new System.Drawing.Size(113, 20);
+            this.bitcoinamountinput.TabIndex = 2;
             // 
             // label1
             // 
@@ -88,30 +88,30 @@
             this.label1.Text = "Sisesta Bitcoini arv";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // tulemuslabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(365, 231);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Tulemus:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.tulemuslabel.AutoSize = true;
+            this.tulemuslabel.BackColor = System.Drawing.Color.Transparent;
+            this.tulemuslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.tulemuslabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.tulemuslabel.Location = new System.Drawing.Point(365, 231);
+            this.tulemuslabel.Name = "tulemuslabel";
+            this.tulemuslabel.Size = new System.Drawing.Size(66, 17);
+            this.tulemuslabel.TabIndex = 4;
+            this.tulemuslabel.Text = "Tulemus:";
+            this.tulemuslabel.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox2
+            // resultlabel
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox2.ForeColor = System.Drawing.Color.DarkRed;
-            this.textBox2.Location = new System.Drawing.Point(368, 254);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 49);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "Pole";
+            this.resultlabel.BackColor = System.Drawing.Color.White;
+            this.resultlabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.resultlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.resultlabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.resultlabel.Location = new System.Drawing.Point(277, 254);
+            this.resultlabel.Name = "resultlabel";
+            this.resultlabel.Size = new System.Drawing.Size(286, 40);
+            this.resultlabel.TabIndex = 5;
+            this.resultlabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
@@ -121,12 +121,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(800, 383);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.resultlabel);
+            this.Controls.Add(this.tulemuslabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.bitcoinamountinput);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.currencyselector);
             this.Name = "Form1";
             this.Text = "BitcoinCalculator";
             this.ResumeLayout(false);
@@ -136,12 +136,12 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox currencyselector;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox bitcoinamountinput;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label tulemuslabel;
+        private System.Windows.Forms.TextBox resultlabel;
     }
 }
 
