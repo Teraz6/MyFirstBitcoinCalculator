@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Bitcoin calculator",
-    "\\Bitcoin calculator\\Bitcoin Calculator"
+    "\\Bitcoin calculator\\Bitcoin Calculator",
+    "\\Bitcoin calculator\\packages"
   ],
   "SelectedNode": "\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
   "PreviewInSolutionExplorer": false

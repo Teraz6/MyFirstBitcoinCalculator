@@ -40,18 +40,19 @@
             // currencyselector
             // 
             this.currencyselector.BackColor = System.Drawing.SystemColors.Window;
+            this.currencyselector.Cursor = System.Windows.Forms.Cursors.Default;
             this.currencyselector.ForeColor = System.Drawing.SystemColors.WindowText;
             this.currencyselector.FormattingEnabled = true;
             this.currencyselector.Items.AddRange(new object[] {
             "EUR",
             "USD",
-            "EEK"});
+            "EEK",
+            "GBP"});
             this.currencyselector.Location = new System.Drawing.Point(368, 113);
             this.currencyselector.Name = "currencyselector";
             this.currencyselector.Size = new System.Drawing.Size(113, 21);
             this.currencyselector.TabIndex = 0;
             this.currencyselector.Text = "Vali valuuta";
-            this.currencyselector.UseWaitCursor = true;
             this.currencyselector.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
@@ -70,10 +71,13 @@
             // 
             // bitcoinamountinput
             // 
+            this.bitcoinamountinput.AcceptsReturn = true;
+            this.bitcoinamountinput.AcceptsTab = true;
             this.bitcoinamountinput.Location = new System.Drawing.Point(368, 78);
             this.bitcoinamountinput.Name = "bitcoinamountinput";
             this.bitcoinamountinput.Size = new System.Drawing.Size(113, 20);
             this.bitcoinamountinput.TabIndex = 2;
+            this.bitcoinamountinput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bitcoinamountinput_KeyPress);
             // 
             // label1
             // 
@@ -107,17 +111,19 @@
             this.resultlabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.resultlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.resultlabel.ForeColor = System.Drawing.Color.DarkRed;
-            this.resultlabel.Location = new System.Drawing.Point(277, 254);
+            this.resultlabel.Location = new System.Drawing.Point(280, 251);
+            this.resultlabel.Multiline = true;
             this.resultlabel.Name = "resultlabel";
-            this.resultlabel.Size = new System.Drawing.Size(286, 40);
+            this.resultlabel.Size = new System.Drawing.Size(293, 120);
             this.resultlabel.TabIndex = 5;
             this.resultlabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.resultlabel.TextChanged += new System.EventHandler(this.resultlabel_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(800, 383);
@@ -127,8 +133,10 @@
             this.Controls.Add(this.bitcoinamountinput);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.currencyselector);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "BitcoinCalculator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

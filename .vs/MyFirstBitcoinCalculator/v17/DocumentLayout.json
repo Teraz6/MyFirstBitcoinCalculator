@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\",
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bitcoin calculator\\Bitcoin Calculator\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,11 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Program.cs",
               "RelativeDocumentMoniker": "Bitcoin calculator\\Bitcoin Calculator\\Program.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Program.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Program.cs",
               "RelativeToolTip": "Bitcoin calculator\\Bitcoin Calculator\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +51,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs",
               "RelativeToolTip": "Bitcoin calculator\\Bitcoin Calculator\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,11 +64,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
               "RelativeToolTip": "Bitcoin calculator\\Bitcoin Calculator\\Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,11 +77,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BitcoinRates.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
               "RelativeDocumentMoniker": "Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TERAZ\u0026\\Teraz6\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\BitCoinCalc\\MyFirstBitcoinCalculator\\Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
               "RelativeToolTip": "Bitcoin calculator\\Bitcoin Calculator\\BitcoinRates.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

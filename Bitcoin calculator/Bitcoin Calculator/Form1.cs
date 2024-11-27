@@ -32,7 +32,7 @@ namespace Bitcoin_Calculator
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+        
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,8 +45,35 @@ namespace Bitcoin_Calculator
                 float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.EUR.rate_float;
                 resultlabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.EUR.code}";
             }
+            /*
+             Lisada juurde dollar, nael ja eesti kroon
+             */
+            if (currencyselector.SelectedItem.ToString() == "USD")
+            {
+                resultlabel.Visible = true;
+                tulemuslabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.USD.rate_float;
+                resultlabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.USD.code}";
+            }
+            if (currencyselector.SelectedItem.ToString() == "GBP")
+            {
+                resultlabel.Visible = true;
+                tulemuslabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.GBP.rate_float;
+                resultlabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.GBP.code}";
+            }
+            if (currencyselector.SelectedItem.ToString() == "EEK")
+            {
+                resultlabel.Visible = true;
+                tulemuslabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.EUR.rate_float;
+                resultlabel.Text = $"{Math.Round(((double)result*15.6466), 2)} Bitcoini {newbitcoinrate.Bpi.EUR.code}";
+                
+            }
         }
-
         public static BitcoinRates GetRates()
         {
             string url = "https://api.coindesk.com/v1/bpi/currentprice.json";
@@ -63,6 +90,31 @@ namespace Bitcoin_Calculator
                 bitcoin = JsonConvert.DeserializeObject<BitcoinRates>(data);         
             }
             return bitcoin;
+        }
+
+        private void resultlabel_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bitcoinamountinput_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verify that the pressed key isn't CTRL or any non-numeric digit
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // If you want, you can allow decimal (float) numbers
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
